@@ -1,0 +1,173 @@
+.smtp-settings-panel{
+   width: 95.5%;
+    margin-bottom: 10px;
+    padding-left: 215px;
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #E6E9ED;
+}
+.panel-full-body{
+     padding: 5px 5px 6px 0;
+    position: relative;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.form-group margin_optin{
+    margin-top: 30px;
+}
+.label-optin{
+    color: black;font-family: 'Helvetica Neue', Roboto, Arial, 'Droid Sans', sans-serif;font-size: 13px;font-weight: bold;
+}
+.all_display{
+    display: inline-flex; position: inherit;
+}
+
+input[type="submit"] {
+    color: #fff;
+    background-color: #398439;
+    border-color: #2e6da4;
+    border-radius: 7px;
+    padding: 6px 10px 6px 10px;
+    cursor: pointer;
+    padding: 9px 23px;
+    margin-left: 37px;
+}
+.input_smtp_1{
+     height: 40px;
+    width: 86%;
+}
+
+.input_smtp_2{
+   width: 86%;
+    height: 40px;
+}
+.input_smtp_3{
+    width: 100%;
+    height: 38px;
+    margin-top: 23px;
+    margin-right: 60px;
+    margin-left: -5px;
+}
+.input_smtp_4{
+    width: 100%;
+    height: 38px;
+    margin-top: 23px;
+    margin-right: 56px;
+}
+.input_smtp_5{
+    width: 86%;
+    height: 40px;
+}
+.input_smtp_6{
+    width: 86%;
+    height: 40px;
+}
+.input_smtp_7{
+   width: 86%;
+    height: 40px;
+}
+label.error{
+    color: red;
+    font-size: 12px;
+   display: table;
+    margin-top: 27px;
+}
+   .label_email {
+    width: 16% !important;
+}
+.label_email{
+    float: left;
+    line-height: 40px;
+    width: 134px;
+}
+#from_email{
+    width:50%; 
+}
+@media screen and (min-width: 320px) and (max-width: 480px){
+   .input_smtp_2{
+margin-top: 0px;
+    margin-left: 0px;
+    }
+    
+    
+  #from_email {
+  width: 98%;
+}
+.input_smtp_1{
+        width: 86%;
+        margin-left:0px;
+       margin-right:0px; 
+}
+  .input_smtp_5{
+margin-top: 0px;
+    margin-left: 0px;
+    }
+ .smtp-settings-panel{
+/*      width: 100%;*/
+margin-left: -220px;
+    }
+
+    input[type="submit"]{
+             width: 45%;
+             margin-left: -82px;
+    }  
+    
+   .label_email {
+    width: 58% !important;
+}
+   
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 640px){
+    .input_smtp_1{
+       margin-left: -4px;
+    width: 100%;
+    margin-top: -4px;
+    }
+    .input_smtp_2{
+ margin-left: -4px;
+    width: 100%;
+    margin-top: -4px;
+    } 
+     .input_smtp_5{
+ margin-left: -4px;
+    width: 100%;
+    margin-top: -4px;
+    } 
+     .input_smtp_6{
+ margin-left: -4px;
+    width: 100%;
+    margin-top: -4px;
+    } 
+     .input_smtp_7{
+ margin-left: -4px;
+    width: 100%;
+    margin-top: -4px;
+    } 
+}
+
+@media screen and (min-width: 412px) and (max-width: 732px){
+  
+  .input_smtp_2{
+   
+    width: 100%;
+}
+
+}
+.success_button{
+width: 100%;
+    margin-top: 26px;
+    margin-left: 157px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    .smtp-settings-panel{
+        width: 61%;
+    }
+    .panel-full-body{
+       margin-left: -206px;
+    width: 805px;
+    }
+}

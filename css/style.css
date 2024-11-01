@@ -1,0 +1,150 @@
+.testvpadmin .testvpadminHead a{
+	float: left;
+	padding: 10px 10px 10px 10px;
+	background: #00c0ef;
+	color: #ffffff;
+	text-decoration: none;
+	border-right:2px solid rgba(0, 0, 0, 0.15); 
+	font-size: 14px;
+    font-weight: bold;
+}
+.testvpTabContant{
+	display: none;
+}
+.singLeOptinMenu .testvpTabContant{
+    display: block;
+}
+.testvpTabContant.testvpactive{
+	display: block;
+	padding: 3px;
+}
+.clr{
+	clear: both;
+}
+.floatLeft{float:left;}
+input#jeetOptinrqrd {
+    margin-top: 8px;
+    margin-right: 41px;
+}
+a.OptinListbtn {
+    padding: 1px 10px 1px 10px;
+    background: #0073aa;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #0073aa;
+    border-radius: 5px;
+}
+a.OptinListbtn1 {
+    padding: 5px 10px 5px 10px;
+    background: #0073aa;
+    text-decoration: none;
+    color: #ffffff;
+    /*font-size: 20px;*/
+    /*font-weight: bold;*/
+    border: 1px solid #0073aa;
+    border-radius: 5px;
+}
+a.OptinListbtnrmv {
+    padding: 1px 10px 5px 10px;
+    background: #d9534f;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #d9534f;
+    border-radius: 5px;
+}
+.fieldelementoptin {
+    float: left;
+    margin-right: 22px;
+        line-height: 31px;
+}
+div.formcontentOptin {
+    margin-top: 7px;
+}
+.adcontenthtml , .jeetCreateOptinLayout{
+    border: 1px solid #ccc;
+    margin-top: 13px;
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.fieldelementoptin input[type="text"] ,.fieldelementoptin select {
+    width: 250px;
+    height: 35px!important;
+    padding-left: 10px!important;
+    border-radius: 6px;
+}
+input[type="submit"] {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    border-radius: 7px;
+    padding: 6px 10px 6px 10px;
+    cursor: pointer;
+}
+#OptinReset{
+   color: #fff!important;
+    background-color: #337ab7!important;
+    border-color: #2e6da4!important;
+    border-radius: 7px!important;
+    padding: 8px 10px 8px 10px!important; 
+    cursor: pointer;
+}
+
+.optinForm_list table {
+    background: #fff;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.optinForm_list table td , .optinForm_list table th {
+    padding: 4px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+li#toplevel_page_mt-top-optinJeet-handle ul .wp-first-item , li#toplevel_page_mt-top-optinJeet-handle ul li:nth-child(3) , li#toplevel_page_mt-top-optinJeet-handle ul li:nth-child(4){
+   display: none!important;
+}
+.optinsRealFields {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 15px 10px 16px 15px;
+    line-height: 21px;
+}
+.form-submit-successOPtin{
+    padding: 10px;
+    background: #DFF2BF;
+    color: #4F8A10 !important;
+    width: 500px;
+    text-align: center;
+    font-weight: bold;
+}
+.form-submit-errorOPtin{
+    padding: 10px;
+    background: #FFBABA;
+    color: #D8000C !important;
+    width: 500px;
+    text-align: center;
+    font-weight: bold;
+}
+table.dataTable tr.even {
+    background-color: #EAEBFF!important;
+}
+a#optinBtnbck {
+    text-decoration: none;
+    border: solid 1px #333;
+    padding: 6px;
+    color: white;
+    background: #333;
+    border-radius: 5px;
+}
+.OptinListbtnrmv
+{
+    margin-left:5px !important;
+}
+a[id=rmv]
+{
+    margin-left:10px !important;
+}

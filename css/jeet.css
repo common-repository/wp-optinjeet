@@ -1,0 +1,103 @@
+body {
+}
+#formlead .row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+}
+
+#formlead .optin input[type="number"] {
+    margin-left: 43px;
+    margin-right: 35px;
+    height: 31px;
+    width: 223px;
+    box-shadow: 0px 0px 27px #ffffff inset;
+    transition: 500ms all ease;
+    padding: 3px 3px 3px 3px;
+}
+
+#formlead .optin input[type="number"]:hover, .optin input[type="number"]:focus {
+    width: 223px;
+    transition: 500ms all ease;
+    background: url(msg.png) no-repeat right;
+    background-size: 25px 25px;
+    background-position: 96% 62%;
+    padding: 3px 3px 3px 3px;
+}
+
+#formlead .optin input[type="Email"] {
+    margin-left: 43px;
+    margin-right: 35px;
+    height: 31px;
+    width: 223px;
+    box-shadow: 0px 0px 27px rgb(204, 204, 204) inset;
+    transition: 500ms all ease;
+    padding: 3px 3px 3px 3px;
+}
+
+#formlead .optin input[type="Email"]:hover, .optin input[type="Email"]:focus {
+    width: 223px;
+    transition: 500ms all ease;
+    background: url(msg.png) no-repeat right;
+    background-size: 25px 25px;
+    background-position: 96% 62%;
+    padding: 3px 32px 3px 3px;
+}
+
+
+#formlead .optin input[type="text"] {
+    margin-left: 43px;
+    margin-right: 35px;
+    height: 31px;
+    width: 223px;
+    box-shadow: 0px 0px 27px #ffffff inset;
+    transition: 500ms all ease;
+    padding: 3px 3px 3px 3px;
+}
+
+#formlead .optin input[type="text"]:hover, .optin input[type="text"]:focus {
+    width: 223px;
+    transition: 500ms all ease;
+    background: url(msg.png) no-repeat right;
+    background-size: 25px 25px;
+    background-position: 96% 62%;
+    padding: 3px 32px 3px 3px;
+}
+
+#formlead .optin font {
+    font-size: medium;
+    font-family: times new roman;
+}
+
+#formlead .optin div {
+    width: 310px;
+    background-color: #BEBECC;
+    padding: 1px;
+}
+
+#formlead .optin input[type="submit"] {
+    padding: 10px;
+    width: auto;
+    height: auto;
+    margin-left: 44px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90px;
+    color: black;
+    height: 38px;
+    background-color: #f7f9f9;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) inset;
+}
+
+#formlead .optin input[type="submit"]:hover {
+    background-color: #BEBECC;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#formlead .optin label {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 25px;
+    margin-left: 42px;
+}
+
